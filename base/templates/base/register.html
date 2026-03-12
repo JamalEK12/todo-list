@@ -7,22 +7,24 @@
 </div>
 
 <div class="card-body">
-<form method= "POST">
+<form method= "POST" onsubmit="validateForm()" >
    {% csrf_token %}
-   <label>{{form.username.label}}</label>
-   {{form.username}}
+ {{form.as_p}}
 
-   <label>{{form.password1.label}}</label>
-   {{form.password1}}
-
-   <label>{{form.password2.label}}</label>
-   {{form.password2}}
-
-   <input style="margin-top:10px" class="button" type="submit" value="Register">
+   <input  style="margin-top:10px" class="button" type="submit" value="Register">
 </form>
 <p>Already have an account? <a href="{% url 'login' %}">Login</a></p>
 </div>
 
+<script>
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
 
+</script>
 
 {% endblock content%}
