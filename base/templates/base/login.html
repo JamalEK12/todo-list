@@ -6,11 +6,12 @@
 </div>
 
 
+
 <div class="card-body">
 <form method= "POST">
    {% csrf_token %}
    {{form.as_p}}
-   <input onclick="myFunction" class="button" type="submit" value="Login">
+   <input  class="button" type="submit" value="Login">
 </form>
 <p>Dont have an account? <a href="{% url 'register'%}">Register</a></p>
 </div>
