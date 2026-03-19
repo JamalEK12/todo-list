@@ -505,7 +505,7 @@ Attempt to register with an existing username. Also attempt to register with pas
 
 <img src="images/Heroku 5.png">
 
-<p>The app was deployed on the <a href="https://www.w3schools.com">Heroku Page</a></p>
+<p>The app was deployed on the <a href="https://jamal-todo1-dd2d34670e9f.herokuapp.com/">Heroku Page</a></p>
 
 
 <h2>Credits and References</h2>
