@@ -33,10 +33,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'jamal-todo1-dd2d34670e9f.herokuapp.com',
-    '127.0.0.1',
-    'localhost',
-    '.herokuapp.com'
+    "jamal-todo1-dd2d34670e9f.herokuapp.com",
+    "localhost",
+    "127.0.0.1",
 ]
 
 
