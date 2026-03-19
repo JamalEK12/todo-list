@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en-US">
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,9 +15,11 @@
 
   <style>
     body{
-        background-color: #FAFAFA;
-        font-family: font-family: "Nunito", sans-serif;
-        padding-top: 200px
+        background-color: #e8fdff;
+        font-family: "Nunito", sans-serif;
+        padding-top: 200px;
+        
+
     }
 
     h1,
@@ -37,10 +39,10 @@
     }  
 
     .container{
-      max-width: 650px;
+      max-width: 680px;
       margin: auto;
-      background-color: #fff
-      -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0 ,0 0.21);
+      background-color: #fff;
+      
       box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
     }
 
@@ -134,7 +136,7 @@
         .btn {
             border: 1px solid #757575;
             background-color: #FFF;
-            color: #4dafcd;
+            color: #1B1212;
             padding: 10px;
             font-size: 14px;
             border-radius: 5px;
@@ -147,7 +149,7 @@
         {
             border: 1px solid #757575;
             background-color: #FFF;
-            color: #4dafcd;
+            color: #1B1212;
             padding: 10px;
             font-size: 14px;
             border-radius: 5px;
@@ -177,7 +179,16 @@
           padding: 20px;
         }
 
-        <style>
+        @media (max-width: 480px) {
+       
+       #add-task {
+        
+        padding-right: 10px
+        text-align: center;
+          }
+       }
+
+     <style>
     #message-container {
         position: fixed;
         top: 20px;
@@ -208,7 +219,7 @@
  
   </head>
   <body>
-   
+   <main>
 {% if messages %}
 <div id="message-container">
     {% for message in messages %}
@@ -226,7 +237,7 @@
         {% endblock content %}
     </div>
 
-    
+  </main> 
   </body>
   <script>
     setTimeout(function() {
