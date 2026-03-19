@@ -416,72 +416,68 @@ The Entity Relationship Diagram was created with a mindset focused towards simpl
 
 
 <h3>Account Signup, Login, Logout, and Access Tests:</h3>
-<style>
-    table, th, td {
-  border: 1px solid black;
-}
-</style>
-<table>
-  <tr>
-    <th>Feature</th>
-    <th>Test Case</th>
-    <th>Expected Result</th>
-    <th>Result</th>
+
+<table style=" border: 1px solid black;">
+  <tr style=" border: 1px solid black;">
+    <th style=" border: 1px solid black;">Feature</th>
+    <th style=" border: 1px solid black;">Test Case</th>
+    <th style=" border: 1px solid black;">Expected Result</th>
+    <th style=" border: 1px solid black;">Result</th>
   </tr>
-  <tr>
-    <td>User Registration</td>
-    <td>Navigate to the registration page. Fill in the form with valid details and submit.</td>
-    <td>The user is registered and redirected to the to-do list page.</td>
-    <td>PASS</td>
+  <tr style=" border: 1px solid black;">
+    <td style=" border: 1px solid black;">User Registration</td>
+    <td style=" border: 1px solid black;">Navigate to the registration page. Fill in the form with valid details and submit.</td>
+    <td style=" border: 1px solid black;">The user is registered and redirected to the to-do list page.</td>
+    <td style=" border: 1px solid black;">PASS</td>
   </tr>
-  <tr>
+  <tr style=" border: 1px solid black;">
     <td></td>
-    <td>
+    <td style=" border: 1px solid black;">
 Attempt to register with an existing username. Also attempt to register with passwords that do not match.</td>
-    <td>An appropriate error message is displayed.</td>
-    <td>PASS</td>
+    <td style=" border: 1px solid black;">An appropriate error message is displayed.</td>
+    <td style=" border: 1px solid black;">PASS</td>
   </tr>
-   <tr>
-    <td>User Login</td>
-    <td>Navigate to the login page. Fill in the form with valid credentials and submit.</td>
-    <td>User is logged in and redirected to the to-do list page.</td>
-    <td>PASS</td>
+   <tr style=" border: 1px solid black;">
+    <td style=" border: 1px solid black;">User Login</td>
+    <td style=" border: 1px solid black;">Navigate to the login page. Fill in the form with valid credentials and submit.</td>
+    <td style=" border: 1px solid black;">User is logged in and redirected to the to-do list page.</td>
+    <td style=" border: 1px solid black;">PASS</td>
   </tr>
-   <tr>
+   <tr style=" border: 1px solid black;">
     <td></td>
-    <td>Attempt to log in with invalid credentials.</td>
+    <td style=" border: 1px solid black;">Attempt to log in with invalid credentials.</td>
     <td>An appropriate error message is displayed</td>
+    <td style=" border: 1px solid black;">PASS</td>
+  </tr>
+   <tr style=" border: 1px solid black;">
+    <td style=" border: 1px solid black;">User Logout</td>
+    <td style=" border: 1px solid black;">While logged in, click the logout button.</td>
+    <td style=" border: 1px solid black;">User is logged out and redirected to the login page.</td>
+    <td style=" border: 1px solid black;">PASS</td>
+  </tr>
+  <tr style=" border: 1px solid black;">
+    <td style=" border: 1px solid black;">Create Task</td>
+    <td style=" border: 1px solid black;">Click the "Add Task" button. Fill in the form with valid details and submit.</td>
+    <td style=" border: 1px solid black;">Task is created and displayed in the task list.</td>
+    <td style=" border: 1px solid black;">PASS</td>
+  </tr>
+   <tr style=" border: 1px solid black;">
+    <td style=" border: 1px solid black;">Edit Task</td>
+    <td style=" border: 1px solid black;">Click the "Edit" button for an existing task. Modify the details and submit.</td>
+    <td style=" border: 1px solid black;">Task is updated and changes are reflected in the task list.</td>
+    <td style=" border: 1px solid black;">PASS</td>
+  </tr>
+  <tr style=" border: 1px solid black;">
+    <td style=" border: 1px solid black;">Delete Task</td>
+    <td style=" border: 1px solid black;">Click the "Delete" button for an existing task. Confirm the deletion in the task list.</td>
+    <td style=" border: 1px solid black;">Task is removed from the task list.</td>
     <td>PASS</td>
   </tr>
-   <tr>
-    <td>User Logout</td>
-    <td>While logged in, click the logout button.</td>
-    <td>User is logged out and redirected to the login page.</td>
-    <td>PASS</td>
-  </tr>
-  <tr>
-    <td>Create Task</td>
-    <td>Click the "Add Task" button. Fill in the form with valid details and submit.</td>
-    <td>Task is created and displayed in the task list.</td>
-    <td>PASS</td>
-  </tr>
-   <tr>
-    <td>Edit Task</td>
-    <td>Click the "Edit" button for an existing task. Modify the details and submit.</td>
-    <td>Task is updated and changes are reflected in the task list.</td>
-    <td>PASS</td>
-  </tr>
-  <tr>
-    <td>Delete Task</td>
-    <td>Click the "Delete" button for an existing task. Confirm the deletion in the task list.</td>
-    <td>Task is removed from the task list.</td>
-    <td>PASS</td>
-  </tr>
-  <tr>
-    <td>Search Task</td>
-    <td>Click the "Search" button for an existing task. Confirm the search filtered all irrelevant tasks.</td>
-    <td>Only relevant tasks is appear in the task list.</td>
-    <td>PASS</td>
+  <tr style=" border: 1px solid black;">
+    <td style=" border: 1px solid black;">Search Task</td>
+    <td style=" border: 1px solid black;"  >Click the "Search" button for an existing task. Confirm the search filtered all irrelevant tasks.</td>
+    <td style=" border: 1px solid black;">Only relevant tasks is appear in the task list.</td>
+    <td style=" border: 1px solid black;">PASS</td>
   </tr>
 </table>
 
