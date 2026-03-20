@@ -505,7 +505,20 @@ Attempt to register with an existing username. Also attempt to register with pas
 
 <img src="images/Heroku 5.png">
 
-<p>The app was deployed on the <a href="https://jamal-todo1-dd2d34670e9f.herokuapp.com/">Heroku Page</a></p>
+<p>
+After you have created your app you should see a panel in the centre of the screen click "Deploy".
+</p>
+
+<img src="images/Deploy.png">
+
+<p>Once the deploy page has loaded scroll to "Deployment Method" and connect to your Github repository.</p>
+
+<img src="images/Method.png">
+
+<p>
+Finally, scroll down to the bottom of the page where it displays the words "Manual deploy"and decide which branch you want to deploy from. After this action has been completed, you should be able to see your application on Heroku. </p>
+
+<p>The app was deployed on the <a href="https://jamal-todo1-dd2d34670e9f.herokuapp.com/">Heroku Website</a></p>
 
 
 <h2>Credits and References</h2>
